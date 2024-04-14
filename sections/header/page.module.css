@@ -1,0 +1,23 @@
+.header{
+    padding: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    position: absolute;
+    width: -webkit-fill-available;
+    z-index: 1;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+    width: 100%;
+    padding: 5px 20px;
+    color: #FF8225;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}

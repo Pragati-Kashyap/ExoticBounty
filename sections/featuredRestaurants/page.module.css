@@ -1,0 +1,70 @@
+.main {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  padding: 20px 120px;
+  background-color: #ffde57;
+}
+.heading {
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #055b45;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  -webkit-transition: all 0.1 0.5s;
+  transition: all 0.1 0.5s;
+}
+
+.card {
+  width: 420px;
+  display: flex;
+  background-color: #3fc460;
+  border-radius: 5px;
+  padding: 20px 15px;
+  overflow: hidden;
+  gap: 20px;
+  align-items: center;
+  -webkit-transition: all 0.1 0.5s;
+  transition: all 0.1 0.5s;
+  cursor: pointer;
+}
+.cardImage {
+  width: 175px;
+  min-width: 175px;
+  height: 175px;
+  position: relative;
+  -webkit-transition: all 0.1 0.5s;
+  transition: all 0.1 0.5s;
+  border-radius: 100%;
+  border: 5px solid #ffbe33;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cardImage:hover {
+  transform: scale(1.1); /* Scale the image up on hover */
+}
+
+.cardText {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  color: white;
+}
+
+.locationContainer {
+  display: flex;
+  gap: 5px;
+  color: white;
+  font-size: 15px;
+}
+.locationIcon {
+  margin-left: -5px;
+}

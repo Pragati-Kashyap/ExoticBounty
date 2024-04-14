@@ -1,0 +1,23 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.description {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+
+.heading {
+  font-family: "Dancing Script", cursive;
+}

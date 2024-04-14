@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px;
+  background-image: url("/main2.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.heading {
+  font-size: 2.6rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #e6333a;
+}
+
+.description {
+  color: #a45026;
+  font-style: italic;
+}
+
+.lastDescription {
+  color: #a45026;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.descriptionContainer {
+  margin-left: 400px;
+  max-width: 600px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
