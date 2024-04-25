@@ -7,7 +7,7 @@ import OurMission from "@/sections/ourMission/ourMission";
 export default function Home() {
   return (
     <>
-      <main className={styles.main}>
+      <main className={styles.main} id="home">
         <video className={styles.video} autoPlay loop muted>
           <source src="/main.mp4" type="video/mp4" />
         </video>

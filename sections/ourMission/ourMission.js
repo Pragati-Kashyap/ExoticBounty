@@ -32,7 +32,7 @@ export default function OurMission() {
   ];
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="ourMission">
       <h2 className={styles.heading}>Our Mission</h2>
       {/* <div className={styles.cardContainer}>
         {cardData.map((card) => (

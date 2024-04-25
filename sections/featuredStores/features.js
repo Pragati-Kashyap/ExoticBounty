@@ -32,7 +32,7 @@ export default function FeaturedStores() {
   ];
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="stores">
       <h2 className={styles.heading}>Featured Stores</h2>
       <div className={styles.cardContainer}>
         {/* <div className={styles.card}>

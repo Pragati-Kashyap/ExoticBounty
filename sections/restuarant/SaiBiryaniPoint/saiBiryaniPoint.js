@@ -18,7 +18,7 @@ export default function Cafeindia() {
           />
         </div>
         <div className={styles.ImageText}>
-          <h2 className={styles.heading}>Kabob G</h2>
+          <h2 className={styles.heading}>Sai Biryani Point</h2>
           <h4 className={styles.description}>
             At Sai Biryani Point, they believe in the power of Indian cuisine
             and its ability to bring people together. They are committed to

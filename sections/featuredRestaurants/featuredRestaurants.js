@@ -97,7 +97,7 @@ export default function FeaturedRestaurants() {
   ];
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="restaurant">
       <h2 className={styles.heading}>Featured Restaurants</h2>
       <div className={styles.cardContainer}>
         {/* {cardData.map((card) => (

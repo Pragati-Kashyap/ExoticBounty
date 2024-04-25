@@ -1,16 +1,16 @@
 import styles from "./page.module.css";
 
-export default function Cafeindia() {
+export default function TanoorGrill() {
   const images = [
-    "/Resturants/saiBriyaniPoint/main.jpg",
-    "/Resturants/saiBriyaniPoint/2.jpg",
+    "/Resturants/tanoorGrill/2.jpeg",
+    "/Resturants/tanoorGrill/1.jpeg",
   ];
   return (
     <>
       <main className={styles.main}>
         <div className={styles.imgContainer}>
           <img
-            src="/Resturants/saiBriyaniPoint/main.jpg"
+            src="/Resturants/tanoorGrill/main.jpeg"
             width="100%"
             height="100%"
             alt="resto"
@@ -18,25 +18,25 @@ export default function Cafeindia() {
           />
         </div>
         <div className={styles.ImageText}>
-          <h2 className={styles.heading}>Tanoor Grill</h2>
+          <h2 className={styles.heading}>Tannoor Grill</h2>
           <h4 className={styles.description}>
-            At Sai Biryani Point, they believe in the power of Indian cuisine
-            and its ability to bring people together. They are committed to
-            providing an authentic dining experience that leaves a lasting
-            impression12. Their highly skilled chefs use unique ingredients to
-            create flavorful dishes that capture the essence of India’s culinary
+            At Tannor Grill, they believe in the power of Indian cuisine and its
+            ability to bring people together. They are committed to providing an
+            authentic dining experience that leaves a lasting impression12.
+            Their highly skilled chefs use unique ingredients to create
+            flavorful dishes that capture the essence of India’s culinary
             traditions12.
           </h4>
           <h4 className={styles.description}>
             So, if you’re searching for authentic Indian cuisine in Memphis,
-            your search ends at Sai Biryani Point! We promise it will be a
-            culinary experience you won’t forget!
+            your search ends at Tannor Grill! We promise it will be a culinary
+            experience you won’t forget!
           </h4>
         </div>
       </main>
       <main className={styles.main2}>
         <h2 className={styles.heading2}>
-          Step Inside Sai Biryani Point: A Gallery
+          Step Inside Tannoor Grill Point: A Gallery
         </h2>
         <div className={styles.grid}>
           {images.map((image, index) => (
@@ -58,12 +58,12 @@ export default function Cafeindia() {
           />
           <h4 className={styles.description2}>
             <a
-              href="https://www.google.com/maps/dir//7233+Winchester+Rd,+Memphis,+TN+38125,+United+States/@35.0484668,-89.9048314,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x887f9a854da74793:0xec5301cf7b55217e!2m2!1d-89.8224303!2d35.0484947?entry=ttu"
+              href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDkyNjZqMGoxqAIAsAIA&um=1&ie=UTF-8&fb=1&gl=in&sa=X&geocode=KT-OTbBqnH-IMT9FdTbDh-uv&daddr=830+N+Germantown+Pkwy,+Cordova,+TN+38018,+United+States"
               target="_blank"
               rel="noopener noreferrer"
             >
               <strong>
-                7233 Winchester Rd, Memphis, TN 38125, United States
+                830 N Germantown Pkwy, Cordova, TN 38018, United States
               </strong>
             </a>
           </h4>
@@ -71,7 +71,7 @@ export default function Cafeindia() {
             <strong>Opening Hours: </strong>
             <br />
             <br />
-            11:30 AM - 09:30 PM
+            5:00 - 9:00pm
             <br />
           </h4>
         </div>
@@ -84,28 +84,28 @@ export default function Cafeindia() {
             alt=""
             className={styles.leftImg}
           />
-          {/* <h4 className={styles.description2} style={{ color: "white" }}>
-            <strong>Email : info@kabobghalal.com </strong>
-          </h4> */}
           <h4 className={styles.description2} style={{ color: "white" }}>
-            <strong>Phone no.: +1 901-249-4549</strong>
+            <strong>Email : info@tanoorgrill.com </strong>
+          </h4>
+          <h4 className={styles.description2} style={{ color: "white" }}>
+            <strong>Phone no.:+1 901-443-5222</strong>
           </h4>
           <h4 className={styles.description2} style={{ color: "white" }}>
             <a
-              href="https://www.mealhi5.com/Sai-Biryani-Point/"
+              href="https://tannoorgrill.com/menu/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <strong> Menu : mealhi5.com</strong>
+              <strong> Menu : tannoorgrill.com/menu</strong>
             </a>
           </h4>
           <h4 className={styles.description2} style={{ color: "white" }}>
             <a
-              href="http://www.saibiryanipointmemphis.com/"
+              href="https://tannoorgrill.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <strong> Website: saibiryanipointmemphis.com</strong>
+              <strong> Website: tannoorgrill.com</strong>
             </a>
           </h4>
         </div>
