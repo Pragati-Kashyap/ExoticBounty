@@ -61,7 +61,7 @@ export default function FeaturedRestaurants() {
     {
       id: 7,
       name: "Sai Biryani Point",
-      image: "/Resturants/SaiBriyaniPoint/main.jpg",
+      image: "/Resturants/SaiBriyaniPoint/main.JPG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Sai-Biryani-Point",
