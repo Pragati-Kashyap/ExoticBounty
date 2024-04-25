@@ -7,8 +7,7 @@ export default function FeaturedRestaurants() {
 
   const handleCardClick = (name) => {
     const encodedName = encodeURIComponent(name);
-    console.log(encodedName, "en");
-    router.push("/restaurant/Amrutha-Villas");
+    router.push(name);
   };
   const cardData = [
     {
@@ -17,7 +16,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/AmruthaVillas/main.jpeg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
-      link: "Amrutha-Villas",
+      link: "/restaurant/Amrutha-Villas",
     },
     {
       id: 2,
@@ -25,6 +24,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/CafeIndia/main.jpeg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
+      link: "/restaurant/Cafe-India",
     },
     {
       id: 3,
@@ -32,6 +32,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/CurryBowl/main.jpeg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
+      link: "/restaurant/Curry-Bowl",
     },
     {
       id: 4,
@@ -39,6 +40,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/HyderabadHouse/main.jpeg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
+      link: "/restaurant/Hyderabad-House",
     },
     {
       id: 5,
@@ -46,6 +48,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/KabobG/main.jpg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
+      link: "/restaurant/Kabob-G",
     },
     {
       id: 6,
@@ -53,6 +56,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/Nawabs/main.jpeg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
+      link: "/restaurant/Nawabs",
     },
     {
       id: 7,
@@ -60,6 +64,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/SaiBriyaniPoint/main.jpg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
+      link: "/restaurant/Sai-Biryani-Point",
     },
     {
       id: 8,
@@ -67,6 +72,7 @@ export default function FeaturedRestaurants() {
       image: "/Resturants/TanoorGrill/main.jpeg",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
+      link: "/restaurant/Tanoor-Grill",
     },
     // {
     //   id: 2,
@@ -112,7 +118,7 @@ export default function FeaturedRestaurants() {
           <div
             key={card.id}
             className={styles.card}
-            onClick={() => handleCardClick(card.name)}
+            onClick={() => handleCardClick(card.link)}
           >
             <img
               src={card.image}
