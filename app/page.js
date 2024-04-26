@@ -16,13 +16,6 @@ export default function Home() {
           <h3 className={styles.description}>
             Welcome to Exotic Bounty - Your Guide to Memphis’s Exotic Produce
             Markets
-            {/* Welcome to Exotic Bounty, your one-stop guide to the exotic fruits
-            and vegetables markets in Memphis. Our mission is to connect you
-            with local stores offering a cornucopia of unique produce from
-            around the world. Whether you’re a food enthusiast looking to
-            explore new flavors, or a homesick expat searching for a taste of
-            home, we’re here to help you discover and enjoy the diverse culinary
-            experiences that Memphis has to offer. */}
           </h3>
           <h5 className={styles.smallDescription}>
             - Navigating a new city can be challenging, especially when you’re

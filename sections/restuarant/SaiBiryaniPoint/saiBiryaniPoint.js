@@ -2,15 +2,15 @@ import styles from "./page.module.css";
 
 export default function Cafeindia() {
   const images = [
-    "/Resturants/saiBriyaniPoint/main.jpg",
-    "/Resturants/saiBriyaniPoint/2.jpg",
+    "/Resturants/SaiBriyaniPoint/main.JPG",
+    "/Resturants/SaiBriyaniPoint/2.JPG",
   ];
   return (
     <>
       <main className={styles.main}>
         <div className={styles.imgContainer}>
           <img
-            src="/Resturants/saiBriyaniPoint/main.jpg"
+            src="/Resturants/SaiBriyaniPoint/main.JPG"
             width="100%"
             height="100%"
             alt="resto"
@@ -50,7 +50,7 @@ export default function Cafeindia() {
         <div className={styles.left}>
           <h2 className={styles.heading2}>Location</h2>
           <img
-            src="/location2.jpeg"
+            src="/location2.JPEG"
             width={400}
             height={300}
             alt=""

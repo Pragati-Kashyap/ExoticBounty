@@ -2,17 +2,17 @@ import styles from "./page.module.css";
 
 export default function AmruthaVillas() {
   const images = [
-    "/Resturants/AmruthaVillas/1.jpeg",
-    "/Resturants/AmruthaVillas/2.jpeg",
-    "/Resturants/AmruthaVillas/3.jpeg",
-    "/Resturants/AmruthaVillas/4.jpeg",
+    "/Resturants/AmruthaVillas/1.JPEG",
+    "/Resturants/AmruthaVillas/2.JPEG",
+    "/Resturants/AmruthaVillas/3.JPEG",
+    "/Resturants/AmruthaVillas/4.JPEG",
   ];
   return (
     <>
       <main className={styles.main}>
         <div className={styles.imgContainer}>
           <img
-            src="/Resturants/AmruthaVillas/main.jpeg"
+            src="/Resturants/AmruthaVillas/main.JPEG"
             width="100%"
             height="100%"
             alt="resto"
@@ -61,7 +61,7 @@ export default function AmruthaVillas() {
         <div className={styles.left}>
           <h2 className={styles.heading2}>Location</h2>
           <img
-            src="/location2.jpeg"
+            src="/location2.JPEG"
             width={400}
             height={300}
             alt=""

@@ -13,7 +13,7 @@ export default function FeaturedRestaurants() {
     {
       id: 1,
       name: "Amrutha Villas",
-      image: "/Resturants/AmruthaVillas/main.jpeg",
+      image: "/Resturants/AmruthaVillas/main.JPEG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Amrutha-Villas",
@@ -21,7 +21,7 @@ export default function FeaturedRestaurants() {
     {
       id: 2,
       name: "Cafe India",
-      image: "/Resturants/CafeIndia/main.jpeg",
+      image: "/Resturants/CafeIndia/main.JPEG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Cafe-India",
@@ -29,7 +29,7 @@ export default function FeaturedRestaurants() {
     {
       id: 3,
       name: "Curry Bowl",
-      image: "/Resturants/CurryBowl/main.jpeg",
+      image: "/Resturants/CurryBowl/main.JPEG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Curry-Bowl",
@@ -37,7 +37,7 @@ export default function FeaturedRestaurants() {
     {
       id: 4,
       name: "Hyderabad House",
-      image: "/Resturants/HyderabadHouse/main.jpeg",
+      image: "/Resturants/HyderabadHouse/main.JPEG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Hyderabad-House",
@@ -45,7 +45,7 @@ export default function FeaturedRestaurants() {
     {
       id: 5,
       name: "Kabob G",
-      image: "/Resturants/KabobG/main.jpg",
+      image: "/Resturants/KabobG/main.JPG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Kabob-G",
@@ -53,7 +53,7 @@ export default function FeaturedRestaurants() {
     {
       id: 6,
       name: "Nawabs",
-      image: "/Resturants/Nawabs/main.jpeg",
+      image: "/Resturants/Nawabs/main.JPEG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Nawabs",
@@ -69,31 +69,11 @@ export default function FeaturedRestaurants() {
     {
       id: 8,
       name: "Tanoor Grill",
-      image: "/Resturants/TanoorGrill/main.jpeg",
+      image: "/Resturants/TanoorGrill/main.JPEG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
       link: "/restaurant/Tanoor-Grill",
     },
-    // {
-    //   id: 2,
-    //   name: "Balaji",
-    //   image: "/Balaji/main.jpeg",
-    //   location: "3810 Hacks Cross Rd #104, Memphis, TN 38125, United States",
-    // },
-    // {
-    //   id: 3,
-    //   name: "Sai Gruha India Mart",
-    //   image: "/SaiGruha/main.jpeg",
-    //   location: "7233 Winchester Road, Memphis, TN 38125, United States, 38197",
-    // },
-    // {
-    //   id: 4,
-    //   name: "Sam's Indian Grocery Store",
-    //   image: "/Sam'sIndian/main.jpeg",
-    //   location:
-    //     "305 New Byhalia Rd #103, Collierville, TN 38017, United States",
-    // },
-    // // Add more objects for additional cards if needed
   ];
 
   return (

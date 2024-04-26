@@ -2,20 +2,20 @@ import styles from "./page.module.css";
 
 export default function Cafeindia() {
   const images = [
-    "/Resturants/CafeIndia/8.jpeg",
-    "/Resturants/CafeIndia/1.jpeg",
-    "/Resturants/CafeIndia/2.jpeg",
-    "/Resturants/CafeIndia/3.jpeg",
-    "/Resturants/CafeIndia/4.jpeg",
-    "/Resturants/CafeIndia/7.jpeg",
-    // "/Resturants/CafeIndia/9.jpeg",
+    "/Resturants/CafeIndia/8.JPEG",
+    "/Resturants/CafeIndia/1.JPEG",
+    "/Resturants/CafeIndia/2.JPEG",
+    "/Resturants/CafeIndia/3.JPEG",
+    "/Resturants/CafeIndia/4.JPEG",
+    "/Resturants/CafeIndia/7.JPEG",
+    // "/Resturants/CafeIndia/9.JPEG",
   ];
   return (
     <>
       <main className={styles.main}>
         <div className={styles.imgContainer}>
           <img
-            src="/Resturants/CafeIndia/main.jpeg"
+            src="/Resturants/CafeIndia/main.JPEG"
             width="100%"
             height="100%"
             alt="resto"
@@ -58,7 +58,7 @@ export default function Cafeindia() {
         <div className={styles.left}>
           <h2 className={styles.heading2}>Location</h2>
           <img
-            src="/location2.jpeg"
+            src="/location2.JPEG"
             width={400}
             height={300}
             alt=""

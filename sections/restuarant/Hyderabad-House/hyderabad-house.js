@@ -2,20 +2,20 @@ import styles from "./page.module.css";
 
 export default function HyderabadHouse() {
   const images = [
-    "/Resturants/HyderabadHouse/1.jpg",
-    "/Resturants/HyderabadHouse/3.jpeg",
-    "/Resturants/HyderabadHouse/4.jpeg",
-    "/Resturants/HyderabadHouse/5.jpeg",
-    "/Resturants/HyderabadHouse/6.jpeg",
-    "/Resturants/HyderabadHouse/2.jpg",
-    // "/Resturants/CafeIndia/9.jpeg",
+    "/Resturants/HyderabadHouse/1.JPG",
+    "/Resturants/HyderabadHouse/3.JPEG",
+    "/Resturants/HyderabadHouse/4.JPEG",
+    "/Resturants/HyderabadHouse/5.JPEG",
+    "/Resturants/HyderabadHouse/6.JPEG",
+    "/Resturants/HyderabadHouse/2.JPG",
+    // "/Resturants/CafeIndia/9.JPEG",
   ];
   return (
     <>
       <main className={styles.main}>
         <div className={styles.imgContainer}>
           <img
-            src="/Resturants/HyderabadHouse/main.jpeg"
+            src="/Resturants/HyderabadHouse/main.JPEG"
             width="100%"
             height="100%"
             alt="resto"
@@ -61,7 +61,7 @@ export default function HyderabadHouse() {
         <div className={styles.left}>
           <h2 className={styles.heading2}>Location</h2>
           <img
-            src="/location2.jpeg"
+            src="/location2.JPEG"
             width={400}
             height={300}
             alt=""

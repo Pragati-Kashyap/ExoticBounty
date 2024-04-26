@@ -5,26 +5,26 @@ export default function FeaturedStores() {
     {
       id: 1,
       name: "Apna Bazaar",
-      image: "/apnaBazaar/main.jpeg",
+      image: "/apnaBazaar/main.JPEG",
       location:
         "3750 S Houston Levee Rd, Collierville, TN, United States, Tennessee",
     },
     {
       id: 2,
       name: "Balaji",
-      image: "/Balaji/main.jpeg",
+      image: "/Balaji/main.JPEG",
       location: "3810 Hacks Cross Rd #104, Memphis, TN 38125, United States",
     },
     {
       id: 3,
       name: "Sai Gruha India Mart",
-      image: "/SaiGruha/main.jpeg",
+      image: "/SaiGruha/main.JPEG",
       location: "7233 Winchester Road, Memphis, TN 38125, United States, 38197",
     },
     {
       id: 4,
       name: "Sam's Indian Grocery Store",
-      image: "/Sam'sIndian/main.jpeg",
+      image: "/Sam'sIndian/main.JPEG",
       location:
         "305 New Byhalia Rd #103, Collierville, TN 38017, United States",
     },
@@ -37,7 +37,7 @@ export default function FeaturedStores() {
       <div className={styles.cardContainer}>
         {/* <div className={styles.card}>
           <img
-            src="/apnaBazaar/main.jpeg"
+            src="/apnaBazaar/main.JPEG"
             width={120}
             height={120}
             alt="apna"

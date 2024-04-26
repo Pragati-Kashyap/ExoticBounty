@@ -2,16 +2,16 @@ import styles from "./page.module.css";
 
 export default function AmruthaVillas() {
   const images = [
-    "/Resturants/CurryBowl/2.jpeg",
-    "/Resturants/CurryBowl/main.jpeg",
-    "/Resturants/CurryBowl/3.jpeg",
+    "/Resturants/CurryBowl/2.JPEG",
+    "/Resturants/CurryBowl/main.JPEG",
+    "/Resturants/CurryBowl/3.JPEG",
   ];
   return (
     <>
       <main className={styles.main}>
         <div className={styles.imgContainer}>
           <img
-            src="/Resturants/CurryBowl/main.jpeg"
+            src="/Resturants/CurryBowl/main.JPEG"
             width="100%"
             height="100%"
             alt="resto"
@@ -58,7 +58,7 @@ export default function AmruthaVillas() {
         <div className={styles.left}>
           <h2 className={styles.heading2}>Location</h2>
           <img
-            src="/location2.jpeg"
+            src="/location2.JPEG"
             width={400}
             height={300}
             alt=""

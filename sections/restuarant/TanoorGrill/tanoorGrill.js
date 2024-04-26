@@ -2,15 +2,15 @@ import styles from "./page.module.css";
 
 export default function TanoorGrill() {
   const images = [
-    "/Resturants/tanoorGrill/2.jpeg",
-    "/Resturants/tanoorGrill/1.jpeg",
+    "/Resturants/TanoorGrill/2.JPEG",
+    "/Resturants/TanoorGrill/1.JPEG",
   ];
   return (
     <>
       <main className={styles.main}>
         <div className={styles.imgContainer}>
           <img
-            src="/Resturants/tanoorGrill/main.jpeg"
+            src="/Resturants/TanoorGrill/main.JPEG"
             width="100%"
             height="100%"
             alt="resto"
@@ -50,7 +50,7 @@ export default function TanoorGrill() {
         <div className={styles.left}>
           <h2 className={styles.heading2}>Location</h2>
           <img
-            src="/location2.jpeg"
+            src="/location2.JPEG"
             width={400}
             height={300}
             alt=""
